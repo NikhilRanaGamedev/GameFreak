@@ -1,0 +1,465 @@
+@font-face {
+    font-family: Blkchcry;
+    src: url("fonts/Blkchcry.otf");
+}
+
+@font-face {
+    font-family: Vtks Velhos Tempos;
+    src: url("fonts/Vtks Velhos Tempos.ttf");
+}
+
+@font-face {
+    font-family: a_dark_wedding;
+    src: url("fonts/a_dark_wedding.ttf");
+}
+
+* {
+    border: 1px solid;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    padding-top:50px;
+}
+
+footer {
+    max-height: 100%;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-inverse{	
+	border: none !important;
+}
+
+@media screen and (min-width: 768px){
+	.dropdown:hover .dropdown-menu{
+		display: block;
+	}
+}
+
+ul.dropdown-menu{
+	background-color: #ffffff;
+}
+
+li.divider{
+	border: 0.1px solid;
+}
+
+#social{
+	padding: 18px 50px 0px 0px;
+}
+
+#facebook{
+	padding: 0 7px 0 0;
+	font-size: 17px;
+}
+
+#twitter{
+	padding: 0 7px 0 0;
+	font-size: 17px;
+}
+
+#google-plus{
+	padding: 0 7px 0 0;
+	font-size: 17px;
+}
+
+#steam{
+	padding: 0 7px 0 0;
+	font-size: 17px;
+}
+
+#logbox{
+	width: 400px;
+    margin: 0 auto;
+	background: rgba(0, 0, 0, .5);
+}
+
+#signbox{
+	width: 600px;
+    margin: 0 auto;
+	background: rgba(0, 0, 0, .6);
+}
+
+#bday_space{
+	line-height: 26px;
+}
+
+#countrybox{
+	height: 30px;
+}
+
+footer{
+	color: #808080;
+	background-color: #000000;
+}
+
+.fa-phone {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+@media screen and (max-width: 350px)
+{
+	#about_us{
+		display: none;
+	}
+}
+
+#social_foot{
+	font-size: 20px;
+}
+
+#social_foot a {
+    color: #808080;
+}
+
+#social_foot a:hover {
+    color: #337ab7;
+}
+
+.game_name {
+                font-weight: 600;
+                font-size: 1.5em;
+            }
+
+#review_caption{
+	padding: 3px;
+	background: rgba(0, 0, 0, .7);
+}
+
+#img_cover{
+	border: 1px solid;
+	max-width: 100%;
+    max-height: 100%;
+}
+
+#game_cover{
+
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.platform_btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #90908D;
+}
+
+#discription{
+	padding: 0 0 0 15px;
+}
+
+#purchase_protection_box{
+	width: 300px;
+	padding-left: 27px;
+}
+
+#purchase_buttons_box{
+	border: 1px solid;
+	border-color: #90908D;
+	width: 250px;
+	padding-left: 30px;
+	border-radius: 8px;
+}
+
+.purchase_buttons{
+	height:30px;
+	width:180px;
+        font-family: Font Awesome\ 5 Free;
+}
+
+#gamezone_wallpaper{
+	background-color: black;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#gamezone_carousel{
+	height: 100%;
+}
+
+#featured_brands_title{
+	background-color: #000000;
+	font-family: Times;
+}
+
+#no_padding{
+	padding: 0;
+}
+
+#witcher_review_container{
+	background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Spectral', serif;
+}
+
+#img_fit{
+	max-height: 100%;
+	max-width: 200px;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    position: relative;
+    top:50%;
+}
+
+/* Sign Up Modal */
+
+#signup {
+    color: white;
+}
+
+#signup .modal-dialog .modal-content{  /* Modal Shape */
+    border-radius: 15px;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 1) 100%), url("../images/witcher3_pc.png") fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    position: relative;
+    top: 0;
+    box-shadow:0 0 40px #27aae1;
+}
+
+#signup .modal-dialog .modal-content .modal-body {
+  margin: 4em 0;
+}
+
+#signup .modal-dialog .modal-content .modal-body .row p {
+  font-weight: 600;
+}
+
+#signup.modal-dialog .modal-content .modal-body .row .col-md-6 a {
+  font-weight: 600;
+  color: white;
+}
+
+#signup input {
+    border-radius: 10px;
+}
+
+#signup input[type="submit"] {
+    border-radius: 15px;
+}
+
+/* Sign Up Modal End */
+
+
+/* Sign Up Modal */
+
+#login {
+    color: white;
+}
+
+#login .modal-dialog .modal-content{  /* Modal Shape */
+    border-radius: 15px;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 1) 100%), url("../images/witcher3_pc.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    position: relative;
+    top: 0;
+    box-shadow:0 0 40px #27aae1;
+}
+
+#login .modal-dialog .modal-content .modal-body {
+  margin: 4em 0;
+}
+
+#login .modal-dialog .modal-content .modal-body .row .col-md-offset-4 p {
+  font-weight: 600;
+}
+
+#login.modal-dialog .modal-content .modal-body .row .col-md-6 a {
+  font-weight: 600;
+  color: white;
+}
+
+#login input {
+    border-radius: 10px;
+}
+
+#login input[type="submit"] {
+    border-radius: 15px;
+}
+
+/* Sign Up Modal */
+
+#profile {
+    color: white;
+}
+
+#profile .modal-dialog .modal-content{  /* Modal Shape */
+    border-radius: 15px;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 1) 100%), url("../images/witcher3_pc.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    position: relative;
+    top: 0;
+    box-shadow:0 0 40px #27aae1;
+}
+
+#profile .modal-dialog .modal-content .modal-body {
+  margin: 4em 0;
+}
+
+#profile .modal-dialog .modal-content .modal-body .row .col-md-offset-4 p {
+  font-weight: 600;
+}
+
+#profile.modal-dialog .modal-content .modal-body .row .col-md-6 a {
+  font-weight: 600;
+  color: white;
+}
+
+#profile input {
+    border-radius: 10px;
+}
+
+#profile input[type="submit"] {
+    border-radius: 15px;
+}
+
+#address {
+    color: white;
+}
+
+#address .modal-dialog .modal-content{  /* Modal Shape */
+    border-radius: 15px;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 1) 100%), url("../images/witcher3_pc.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    position: relative;
+    top: 0;
+    box-shadow:0 0 40px #27aae1;
+}
+
+#address .modal-dialog .modal-content .modal-body {
+  margin: 0;
+}
+
+#address .modal-dialog .modal-content .modal-body .row .col-md-offset-4 p {
+  font-weight: 600;
+}
+
+#address.modal-dialog .modal-content .modal-body .row .col-md-6 a {
+  font-weight: 600;
+  color: white;
+}
+
+#address input {
+    border-radius: 10px;
+}
+
+#address input[type="submit"] {
+    border-radius: 15px;
+}
+
+#order_placed {
+    color: white;
+}
+
+#order_placed .modal-dialog .modal-content{  /* Modal Shape */
+    border-radius: 15px;
+    background: radial-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 1) 100%), url("../images/witcher3_pc.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    position: relative;
+    top: 0;
+    box-shadow:0 0 40px #27aae1;
+}
+
+#order_placed .modal-dialog .modal-content .modal-body {
+  margin: 0;
+}
+
+#order_placed .modal-dialog .modal-content .modal-body .row .col-md-offset-4 p {
+  font-weight: 600;
+}
+
+#order_placed.modal-dialog .modal-content .modal-body .row .col-md-6 a {
+  font-weight: 600;
+  color: white;
+}
+
+#order_placed input {
+    border-radius: 10px;
+}
+
+#order_placed input[type="submit"] {
+    border-radius: 15px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.submenu {
+    display: none !important;
+}
+
+.dropdown-submenu:hover .submenu {
+    display: block !important;
+}
+
+/*ul.dropdown-menu>li {
+    text-align: center;
+}*/
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none; margin: 0;
+}
+
+#cart_items {
+    position: relative;
+    bottom: 0.6em;
+    left: -4px;
+    /*border: 1px solid;*/
+    border-radius: 100%;
+    padding: 3px 5px;
+    background-color: black;
+}
+   
+.fw {
+    font-weight: 600;
+}
+
+input.ng-touched.ng-invalid {
+    box-shadow:0 0 40px #D62B26;
+}
+
+input.ng-touched.ng-valid {
+    box-shadow:0 0 40px #59D626;
+}
+
+select{
+    border-radius: 10px !important;
+}
